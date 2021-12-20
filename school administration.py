@@ -26,6 +26,7 @@ def takes_info():
         ch=input('Is the info correct[y/n]: ')              #double check for human error from user side
         if ch=='y':
             add_into_csv(info_list)                         #info added
+            print('info added')
             break
         else:
             continue                                        #goes back to start of loop and takes info again
