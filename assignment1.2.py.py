@@ -2,7 +2,8 @@
 
 #My Assignment - 1.2
 '''
-build a calculator
+1: build a calculator
+2: create afunction  with 3/4 parameters
 '''
 
 #Functions available in the calculator(+,-,*,/,//,%,**)
@@ -85,5 +86,10 @@ while True:
             elif func==e:
                 print('the final result calculated is: ',ans)    #after printing final result will go back to start of loop
             
-        
+#2: create a function with 3/4 parameters
+
+def func(first_name,last_name,age):
+    print(first_name+' '+last_name+' is '+str(age)+' years old')
+
+func('melypnos','clay',38) 
             
